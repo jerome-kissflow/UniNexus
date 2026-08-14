@@ -30,7 +30,7 @@ export const APPS: AppDef[] = [
     kicker: 'Mobile',
     blurb: 'Status, aid, arrival, and a campus social feed from student groups.',
     icon: GraduationCap,
-    accent: '#1557e0',
+    accent: '#0f766e',
     metricKey: 'students',
   },
   {
@@ -40,7 +40,7 @@ export const APPS: AppDef[] = [
     kicker: 'Workbench',
     blurb: 'Who is stuck, who owns it, and which SLA is already late.',
     icon: Radar,
-    accent: '#123a8c',
+    accent: '#c2413b',
     metricKey: 'blocked',
   },
   {
@@ -50,7 +50,7 @@ export const APPS: AppDef[] = [
     kicker: 'Awards',
     blurb: 'Package awards against live fund remaining, with a human sign-off.',
     icon: Landmark,
-    accent: '#1d4ed8',
+    accent: '#b45309',
     metricKey: 'aid',
   },
   {
@@ -60,7 +60,7 @@ export const APPS: AppDef[] = [
     kicker: 'Leaders',
     blurb: 'Enrollment, cash, and risk for the president’s cabinet.',
     icon: TowerControl,
-    accent: '#0b1f4d',
+    accent: '#4f46e5',
     metricKey: 'enroll',
   },
   {
@@ -70,7 +70,7 @@ export const APPS: AppDef[] = [
     kicker: 'CFO',
     blurb: 'Collections lag, net tuition, and award drag on August cash.',
     icon: Wallet,
-    accent: '#1557e0',
+    accent: '#047857',
     metricKey: 'cash',
   },
   {
@@ -80,7 +80,7 @@ export const APPS: AppDef[] = [
     kicker: 'Arrival',
     blurb: 'ID, housing, LMS, and health — one arrival picture.',
     icon: Stamp,
-    accent: '#123a8c',
+    accent: '#db2777',
     metricKey: 'ready',
   },
   {
@@ -90,7 +90,7 @@ export const APPS: AppDef[] = [
     kicker: 'CIO',
     blurb: 'Banner, Salesforce, Workday, and Starfish — talking, with lineage.',
     icon: Network,
-    accent: '#1557e0',
+    accent: '#7c3aed',
     metricKey: 'health',
   },
   {
@@ -100,7 +100,7 @@ export const APPS: AppDef[] = [
     kicker: 'Phase II',
     blurb: 'Grant spend, compliance, and the paper trail for research.',
     icon: FlaskConical,
-    accent: '#1f7a72',
+    accent: '#0e7490',
     metricKey: 'grants',
   },
 ]

@@ -17,8 +17,10 @@ const SHORT: Record<string, string> = {
 export function Shell({ children }: { children: ReactNode }) {
   const loc = useLocation()
   const home = loc.pathname === '/'
+  const current = APPS.find((a) => a.path === loc.pathname)
+  const skin = home ? 'home' : current?.id ?? 'home'
   return (
-    <div className="app-root">
+    <div className={`app-root app-${skin}${home ? ' is-home' : ''}`}>
       <main className="stage">{children}</main>
       {!home && (
         <nav className="dock" aria-label="UniNexus Suite">

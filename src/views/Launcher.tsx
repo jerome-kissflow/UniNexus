@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react'
 import { Link } from 'react-router-dom'
 import { APPS } from '../apps'
 import { useCampus } from '../state/store'
@@ -29,8 +30,8 @@ export function Launcher() {
         {APPS.map((app) => {
           const Icon = app.icon
           return (
-            <Link key={app.id} to={app.path} className="app-icon">
-              <span className="app-icon-mark" style={{ color: app.accent, background: `${app.accent}18` }}>
+            <Link key={app.id} to={app.path} className="app-icon" style={{ '--tile': app.accent } as CSSProperties}>
+              <span className="app-icon-mark">
                 <Icon size={20} strokeWidth={1.75} />
               </span>
               <b>{app.label}</b>
@@ -41,6 +42,10 @@ export function Launcher() {
           )
         })}
       </div>
+      <a className="powered-by" href="https://kissflow.com" target="_blank" rel="noreferrer">
+        <span>Powered by</span>
+        <img src="./kissflow-logo.png" alt="Kissflow" />
+      </a>
     </div>
   )
 }
