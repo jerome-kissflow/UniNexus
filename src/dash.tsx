@@ -41,10 +41,10 @@ export function Gauge({
         strokeLinecap="round"
         strokeDasharray={`${c * 0.75 * p} ${c}`}
       />
-      <text x="50" y="58" textAnchor="middle" fill={ink} fontFamily="Space Grotesk, Syne, sans-serif" fontSize="20">
+      <text x="50" y="62" textAnchor="middle" fill={ink} fontFamily="Space Grotesk, Syne, sans-serif" fontSize="14" fontWeight="600">
         {Math.round(p * 100)}%
       </text>
-      <text x="50" y="74" textAnchor="middle" fill={ink} fontSize="8" opacity="0.7">
+      <text x="50" y="76" textAnchor="middle" fill={ink} fontSize="7" opacity="0.7">
         {label}
       </text>
     </svg>
