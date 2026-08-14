@@ -20,7 +20,13 @@ export function Launcher() {
 
   return (
     <div className="launch-simple">
-      <div className="suite-mark">UniNexus Suite</div>
+      <div className="launch-brand">
+        <div className="suite-mark">UniNexus Suite</div>
+        <a className="powered-by" href="https://kissflow.com" target="_blank" rel="noreferrer">
+          <span>Powered by</span>
+          <img src="./kissflow-logo.png" alt="Kissflow" />
+        </a>
+      </div>
       <h1>Student lifecycle, one operating system</h1>
       <p>
         Eight applications share one canonical person at Northhaven University. Open any product — the same file,
@@ -42,10 +48,6 @@ export function Launcher() {
           )
         })}
       </div>
-      <a className="powered-by" href="https://kissflow.com" target="_blank" rel="noreferrer">
-        <span>Powered by</span>
-        <img src="./kissflow-logo.png" alt="Kissflow" />
-      </a>
     </div>
   )
 }

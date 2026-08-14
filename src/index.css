@@ -72,7 +72,7 @@ a {
 }
 .app-root.app-home,
 .app-root.is-home {
-  background: #f4f2ec;
+  background: #fff;
   --copper: #1c1914;
 }
 .app-root.app-student {
@@ -1634,6 +1634,13 @@ a {
 .launch-simple {
   padding-top: 28px;
 }
+.launch-brand {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+  margin-bottom: 8px;
+}
 .launch-simple h1 {
   font-family: var(--sans);
   font-size: 28px;
@@ -1660,14 +1667,14 @@ a {
 .powered-by {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  margin-top: 36px;
+  gap: 8px;
+  margin: 0;
   color: #5c564c;
   font-size: 13px;
   letter-spacing: 0.04em;
 }
 .powered-by img {
-  height: 28px;
+  height: 24px;
   width: auto;
   display: block;
 }
